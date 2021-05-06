@@ -15,8 +15,8 @@ on:
 env:
   imageRepository: 'content-web'
   resourceGroupName: 'fabmedical-MBD'
-  containerRegistryName: 'fabmedical[SHORT_SUFFIX]'
-  containerRegistry: 'fabmedical[SHORT_SUFFIX].azurecr.io'
+  containerRegistryName: 'fabmedicalMBD'
+  containerRegistry: 'fabmedicalMBD.azurecr.io'
   dockerfilePath: './content-web'
   tag: '${{ github.run_id  }}'
 
